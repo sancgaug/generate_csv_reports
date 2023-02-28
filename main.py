@@ -2,18 +2,23 @@ import os
 from datetime import datetime
 from tempfile import gettempdir
 
-from base import ReportFormatter
-from csv_reports import CSVReportFormatter, CSVAttentionPliesFormatter, CSVUnprocessedPliesFormatter, \
-    CSVBoundingBoxFormatter, CSVSinglePhiFormatter, CSVTimeEstFormatter
+from report_formatter.csv_attention_plies_formatter import CSVAttentionPliesFormatter
+from report_formatter.csv_bounding_box_formatter import CSVBoundingBoxFormatter
+from report_formatter.csv_report_formatter import CSVReportFormatter
+from report_formatter.csv_single_phi_formatter import CSVSinglePhiFormatter
+from report_formatter.csv_time_est_formatter import CSVTimeEstFormatter
+from report_formatter.csv_unprocessed_plies_formatter import CSVUnprocessedPliesFormatter
 from data.loader import get_example_file_paths, get_report
+from report_formatter.report_formatter import ReportFormatter
 
-CSV_REPORTS_DICT = {"CSVReportFormatter": CSVReportFormatter,
-                    "CSVAttentionPliesFormatter": CSVAttentionPliesFormatter,
-                    "CSVUnprocessedPliesFormatter": CSVUnprocessedPliesFormatter,
-                    "CSVBoundingBoxFormatter": CSVBoundingBoxFormatter,
-                    "CSVSinglePhiFormatter": CSVSinglePhiFormatter,
-                    "CSVTimeEstFormatter": CSVTimeEstFormatter
-                    }
+CSV_REPORTS_DICT = {
+    "CSVReportFormatter": CSVReportFormatter,
+    "CSVAttentionPliesFormatter": CSVAttentionPliesFormatter,
+    "CSVUnprocessedPliesFormatter": CSVUnprocessedPliesFormatter,
+    "CSVBoundingBoxFormatter": CSVBoundingBoxFormatter,
+    "CSVSinglePhiFormatter": CSVSinglePhiFormatter,
+    "CSVTimeEstFormatter": CSVTimeEstFormatter
+}
 
 
 def get_data_file() -> str:
@@ -31,7 +36,7 @@ def get_data_file() -> str:
 
 
 def get_csv_report() -> ReportFormatter:
-    print("The following reports are available: ")
+    print("The following report_formatter are available: ")
     for report_key, report in CSV_REPORTS_DICT.items():
         print(f"{report_key} ({report.DISPLAY_NAME})")
     while True:

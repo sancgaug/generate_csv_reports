@@ -1,4 +1,3 @@
-from abc import ABC
 from collections import Counter
 from dataclasses import dataclass, field, fields
 from math import pi
@@ -51,17 +50,6 @@ def shallow_as_dict(obj):
     return dict((f.name, getattr(obj, f.name)) for f in fields(obj))
 
 
-class ReportFormatter(ABC):
-    DISPLAY_NAME: str = "Report Format"  # override me!
-    DISPLAY_DESCRIPTION: str = "Does Nothing"  # override me!
-
-    def __init__(self, report: Report):
-        self.report = report
-
-    def generate(self, out_path_no_extension: str) -> str:
-        raise NotImplementedError()
-
-
 def compactness(geom: Polygon) -> float:
     """Polsby-Popper measure of compactness: in range 0-100%"""
     return ((4 * pi * geom.area) / (geom.length**2)) * 100 if geom.length != 0 else 0
@@ -94,5 +82,3 @@ def picks_first_valid(picks: List[PickResult]) -> PickResult:
         if pick.valid:
             return pick
     return picks[-1]
-
-
