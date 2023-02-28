@@ -36,7 +36,7 @@ def get_data_file() -> str:
 
 
 def get_csv_report() -> ReportFormatter:
-    print("The following report_formatter are available: ")
+    print("The following reports are available: ")
     for report_key, report in CSV_REPORTS_DICT.items():
         print(f"{report_key} ({report.DISPLAY_NAME})")
     while True:
