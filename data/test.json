@@ -1,0 +1,360 @@
+{
+  "__report__": {
+    "picks": [
+      {
+        "__pick_result__": {
+          "cell_label": "TestCell1",
+          "end_effector_label": "TestEE1",
+          "plyshape": {
+            "__ply_shape__": {
+              "label": "TestPly1",
+              "parent_file": "report1.dxf",
+              "geom": {
+                "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+              },
+              "material_label": "TestMat1",
+              "bounding_box_axes": [
+                12.0,
+                15.0
+              ]
+            }
+          },
+          "plyshape_orientation": 2.5,
+          "valid": true,
+          "reason": "Success",
+          "end_effector_orientation": 0.0,
+          "end_effector_translation_x": 2.0,
+          "end_effector_translation_y": 3.0,
+          "active_valves": [
+            "a",
+            "b",
+            "d"
+          ],
+          "zone_index": 4,
+          "weight": 0.4
+        }
+      },
+      {
+        "__pick_result__": {
+          "cell_label": "TestCell1",
+          "end_effector_label": "TestEE1",
+          "plyshape": {
+            "__ply_shape__": {
+              "label": "TestPly2",
+              "parent_file": "report1.dxf",
+              "geom": {
+                "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+              },
+              "material_label": "TestMat2",
+              "bounding_box_axes": [
+                22.0,
+                25.0
+              ]
+            }
+          },
+          "plyshape_orientation": 3.0,
+          "valid": false,
+          "reason": "Failure - Sagging",
+          "end_effector_orientation": 45.0,
+          "end_effector_translation_x": 0.0,
+          "end_effector_translation_y": 0.0,
+          "active_valves": [
+            "a",
+            "b",
+            "e"
+          ],
+          "zone_index": 4,
+          "weight": 0.2
+        }
+      },
+      {
+        "__pick_result__": {
+          "cell_label": "TestCell1",
+          "end_effector_label": "TestEE1",
+          "plyshape": {
+            "__ply_shape__": {
+              "label": "TestPly3",
+              "parent_file": "report1.dxf",
+              "geom": {
+                "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+              },
+              "material_label": "TestMat1",
+              "bounding_box_axes": [
+                32.0,
+                35.0
+              ]
+            }
+          },
+          "plyshape_orientation": 3.5,
+          "valid": false,
+          "reason": "Failure - Unable to pick",
+          "end_effector_orientation": 0.0,
+          "end_effector_translation_x": 20.0,
+          "end_effector_translation_y": 30.0,
+          "active_valves": [
+            "a",
+            "b",
+            "d"
+          ],
+          "zone_index": 4,
+          "weight": 0.7
+        }
+      },
+      {
+        "__pick_result__": {
+          "cell_label": "TestCell1",
+          "end_effector_label": "TestEE1",
+          "plyshape": {
+            "__ply_shape__": {
+              "label": "TestPly4",
+              "parent_file": "report2.dxf",
+              "geom": {
+                "__polygon__": "POLYGON ((323.4324547932389 1326.5657110870175, -63.67069809340057 1041.5506791737143, -63.67029028467726 1326.565706179108, 323.4324547932389 1326.5657110870175))"
+              },
+              "material_label": "TestMat2",
+              "bounding_box_axes": [
+                42.0,
+                45.0
+              ]
+            }
+          },
+          "plyshape_orientation": 0.0,
+          "valid": true,
+          "reason": "Success",
+          "end_effector_orientation": -45.0,
+          "end_effector_translation_x": 42.0,
+          "end_effector_translation_y": 43.0,
+          "active_valves": [
+            "a",
+            "b",
+            "d"
+          ],
+          "zone_index": 6,
+          "weight": 0.1
+        }
+      },
+      {
+        "__pick_result__": {
+          "cell_label": "TestCell1",
+          "end_effector_label": "TestEE1",
+          "plyshape": {
+            "__ply_shape__": {
+              "label": "TestPly5",
+              "parent_file": "report2.dxf",
+              "geom": {
+                "__polygon__": "POLYGON ((323.4324547932389 1326.5657110870175, -63.67069809340057 1041.5506791737143, -63.67029028467726 1326.565706179108, 323.4324547932389 1326.5657110870175))"
+              },
+              "material_label": "TestMat1",
+              "bounding_box_axes": [
+                52.0,
+                55.0
+              ]
+            }
+          },
+          "plyshape_orientation": 45.0,
+          "valid": false,
+          "reason": "Failure - Sagging",
+          "end_effector_orientation": 90.0,
+          "end_effector_translation_x": 0.0,
+          "end_effector_translation_y": 0.0,
+          "active_valves": [
+            "a",
+            "c",
+            "g"
+          ],
+          "zone_index": 6,
+          "weight": 0.25
+        }
+      }
+    ],
+    "time_estimate": {
+      "wait": 0.2,
+      "action": 4.0
+    },
+    "tec_config_label": "TestTEC1",
+    "ply_results": [
+      {
+        "__ply_result__": {
+          "picks": [
+            {
+              "__pick_result__": {
+                "cell_label": "TestCell1",
+                "end_effector_label": "TestEE1",
+                "plyshape": {
+                  "__ply_shape__": {
+                    "label": "TestPly1",
+                    "parent_file": "report1.dxf",
+                    "geom": {
+                      "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+                    },
+                    "material_label": "TestMat1",
+                    "bounding_box_axes": [
+                      12.0,
+                      15.0
+                    ]
+                  }
+                },
+                "plyshape_orientation": 2.0,
+                "valid": true,
+                "reason": "Success",
+                "end_effector_orientation": 0.0,
+                "end_effector_translation_x": 2.0,
+                "end_effector_translation_y": 3.0,
+                "active_valves": [
+                  "a",
+                  "b",
+                  "d"
+                ],
+                "zone_index": 4,
+                "weight": 0.4
+              }
+            },
+            {
+              "__pick_result__": {
+                "cell_label": "TestCell1",
+                "end_effector_label": "TestEE1",
+                "plyshape": {
+                  "__ply_shape__": {
+                    "label": "TestPly2",
+                    "parent_file": "report1.dxf",
+                    "geom": {
+                      "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+                    },
+                    "material_label": "TestMat2",
+                    "bounding_box_axes": [
+                      22.0,
+                      25.0
+                    ]
+                  }
+                },
+                "plyshape_orientation": 3.0,
+                "valid": false,
+                "reason": "Failure - Sagging",
+                "end_effector_orientation": 45.0,
+                "end_effector_translation_x": 0.0,
+                "end_effector_translation_y": 0.0,
+                "active_valves": [
+                  "a",
+                  "b",
+                  "e"
+                ],
+                "zone_index": 4,
+                "weight": 0.2
+              }
+            },
+            {
+              "__pick_result__": {
+                "cell_label": "TestCell1",
+                "end_effector_label": "TestEE1",
+                "plyshape": {
+                  "__ply_shape__": {
+                    "label": "TestPly3",
+                    "parent_file": "report1.dxf",
+                    "geom": {
+                      "__polygon__": "POLYGON ((-63.67079286805433 1041.550609393345, 323.4324763308775 1326.565726944679, 523.4326604097104 1326.5657273570148, -63.67095795007156 830.550286934941, -63.670953563857694 781.2825762615051, -63.671 830.55, -63.67079286805433 1041.550609393345))"
+                    },
+                    "material_label": "TestMat1",
+                    "bounding_box_axes": [
+                      32.0,
+                      35.0
+                    ]
+                  }
+                },
+                "plyshape_orientation": 3.5,
+                "valid": false,
+                "reason": "Failure - Unable to pick",
+                "end_effector_orientation": 0.0,
+                "end_effector_translation_x": 20.0,
+                "end_effector_translation_y": 30.0,
+                "active_valves": [
+                  "a",
+                  "b",
+                  "d"
+                ],
+                "zone_index": 4,
+                "weight": 0.7
+              }
+            }
+          ],
+          "success_rate": 0.33
+        }
+      },
+      {
+        "__ply_result__": {
+          "picks": [
+            {
+              "__pick_result__": {
+                "cell_label": "TestCell1",
+                "end_effector_label": "TestEE1",
+                "plyshape": {
+                  "__ply_shape__": {
+                    "label": "TestPly4",
+                    "parent_file": "report2.dxf",
+                    "geom": {
+                      "__polygon__": "POLYGON ((323.4324547932389 1326.5657110870175, -63.67069809340057 1041.5506791737143, -63.67029028467726 1326.565706179108, 323.4324547932389 1326.5657110870175))"
+                    },
+                    "material_label": "TestMat2",
+                    "bounding_box_axes": [
+                      42.0,
+                      45.0
+                    ]
+                  }
+                },
+                "plyshape_orientation": 0.0,
+                "valid": true,
+                "reason": "Success",
+                "end_effector_orientation": -45.0,
+                "end_effector_translation_x": 42.0,
+                "end_effector_translation_y": 43.0,
+                "active_valves": [
+                  "a",
+                  "b",
+                  "d"
+                ],
+                "zone_index": 6,
+                "weight": 0.1
+              }
+            },
+            {
+              "__pick_result__": {
+                "cell_label": "TestCell1",
+                "end_effector_label": "TestEE1",
+                "plyshape": {
+                  "__ply_shape__": {
+                    "label": "TestPly5",
+                    "parent_file": "report2.dxf",
+                    "geom": {
+                      "__polygon__": "POLYGON ((323.4324547932389 1326.5657110870175, -63.67069809340057 1041.5506791737143, -63.67029028467726 1326.565706179108, 323.4324547932389 1326.5657110870175))"
+                    },
+                    "material_label": "TestMat1",
+                    "bounding_box_axes": [
+                      52.0,
+                      55.0
+                    ]
+                  }
+                },
+                "plyshape_orientation": 45.0,
+                "valid": false,
+                "reason": "Failure - Sagging",
+                "end_effector_orientation": 90.0,
+                "end_effector_translation_x": 0.0,
+                "end_effector_translation_y": 0.0,
+                "active_valves": [
+                  "a",
+                  "c",
+                  "g"
+                ],
+                "zone_index": 6,
+                "weight": 0.25
+              }
+            }
+          ],
+          "success_rate": 0.50
+        }
+      }
+    ],
+    "failed_filenames": [
+      "report2.dxf"
+    ]
+  }
+}
